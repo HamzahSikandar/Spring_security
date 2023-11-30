@@ -2,17 +2,14 @@ package com.spring.security.springbootsecurity.controller;
 
 
 import com.spring.security.springbootsecurity.entity.user.Role;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 @Data
 @Builder
+@AllArgsConstructor
 @NoArgsConstructor
-@RequiredArgsConstructor
 
-public class RegisterRequest1 {
+public class RegisterRequest {
     private String firstname;
     private String lastname;
     private String email;

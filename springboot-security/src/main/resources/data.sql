@@ -1,0 +1,3 @@
+INSERT INTO _user
+(ID,FIRSTNAME,LASTNAME,EMAIL,PASSWORD,ROLE)
+VALUES(1,'hamza','khan','hamza@gmail.com','123','USER');
